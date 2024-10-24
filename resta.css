@@ -1,0 +1,1947 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    margin: auto;
+}
+.head-page{
+    display: inline;
+}
+.head-page img{
+    width: 80px;
+}
+.head-page h1{
+    font-size: 25px;
+    margin-top: 22px;
+}
+.head-page ul{
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+} 
+.head-page ul li {
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.head-page ul li a{
+    text-decoration: none;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.head-page ul li a:hover{
+    color: red;
+}
+.dropdown-list{
+    display: none;
+}
+.head-page ul li:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: 5px 5px;
+    background: white;
+}
+.dropdown-list ul li:hover{
+   background:rgb(185, 212, 221);
+   cursor: pointer;
+}
+.dropdown-list ul{
+    display: block;
+    margin: 2px;
+}
+.dropdown-list ul li{
+    padding: 2px;
+}
+
+
+.dropdown-menu{
+    display: none;
+}
+.head-page ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: 5px 5px;
+    background: white;
+}
+.dropdown-menu ul li:hover{
+   background:rgb(185, 212, 221);
+   cursor: pointer;
+}
+.dropdown-menu ul{
+    display: block;
+    margin: 2px;
+}
+.dropdown-menu ul li{
+    padding: 2px;
+}
+
+.addcard{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 25px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:180px ;
+    background: white;
+}
+.addcard img{
+    width: 25px;
+}
+.order{
+    text-decoration:none;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 35px;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    background: red;
+    font-weight: 500;
+}
+.order:hover{
+    background: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+/*------------home page-------------*/
+.home-page{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient( to right, pink,rgb(213, 229, 235));
+    margin-bottom: 40px;
+}
+.restaurant{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right pink,lightblue);
+}
+.resta-content{
+    margin: 40px;
+    padding-top: 120px;
+
+}
+.resta-content h1{
+    font-size: 65px;
+    font-weight: 600;
+}
+.resta-content p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.sup{
+    height: 40px;
+    color: skyblue;
+    font-size: 17px;
+}
+.sup:hover{
+    cursor: pointer;
+}
+.option:hover{
+    cursor: pointer;
+}
+.ordernow{
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 35px;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    background: red;
+    font-weight: 500;
+}
+.ordernow:hover{
+    background: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.delivery-pic{
+    padding-top: 40px;
+}
+
+.rating{
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: flex;
+    width: 300px;
+    border-radius: 10px; 
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    margin-top: 45%;
+    background: white;
+}
+
+.on-month{
+    position: relative;
+}
+.rate-content{
+    padding: 10px;
+}
+.icon{
+    display: flex;
+}
+
+/*---------work page----------*/
+.working{
+    width: 100%;
+    margin: auto;
+}
+.work-page h1{
+    font-size: 45px;
+    padding: 20px;
+    font-weight: 600;
+}
+.work-page p{
+    font-size: 20px;
+    color: gray;
+}
+.work-page{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+.delivery-details{
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+.selectresta{
+    text-align: center;
+}
+.selectresta b{
+    color: gray;
+    font-size: 32px;
+}
+.selectresta p{
+    padding: 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+/*---------best restaurant page----------*/
+.best-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    background: rgb(243, 243, 243);
+    padding-bottom: 20px;
+}
+.best-resta{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+.city-resta h1{
+    font-size: 43px;
+    padding: 10px;
+    font-weight: 800;
+}
+.city-resta p{
+    color: gray;
+    font-size: 22px;
+}
+.kennington{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background: white;
+    margin-top: 20px;
+}
+.lane img{
+    width: 80px;
+    padding: 8px;
+    
+}
+.lane{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px;   
+}
+.lane-content h2{
+    padding: 4px;
+}
+.lane-content h2:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+.lane-content img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.american{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.steak{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.seafood{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.lane-content p{
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.seafood:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.american:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;   
+}
+.steak:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+
+
+.kennington-cafe{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background: white;
+    margin-top: 20px;
+}
+.lane-on img{
+    width: 80px;
+    padding: 8px;
+    
+}
+.lane-on{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px;   
+}
+.lane-contents h2{
+    padding: 4px;
+}
+.lane-contents h2:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.lane-contents img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.americans{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.steaks{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.seafoods{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.lane-contents p{
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.seafoods:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.americans:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;   
+}
+.steaks:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.seeall{
+    place-items: center;
+    text-decoration: none;
+    margin-left: 580px;
+    margin-top: 40px;
+     box-sizing: border-box;
+     border: 1px solid rgb(6, 6, 112);
+     padding: 10px;
+     border-radius: 10px;
+}
+.seeall:hover{
+    background: rgb(112, 112, 206);
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+/*.wilmington{
+    display:flex;
+    justify-content: ;
+}
+.kings{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background: white;
+    margin: 40px;
+}
+.arms img{
+    width: 80px;
+    padding: 8px;
+    
+}
+.arms{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px;   
+}
+.arms-content h2{
+    padding: 4px;
+}
+.arms-content img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.america{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.steaks{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.seafoods{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.arms{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px;   
+}
+.arms-content p{
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.seafoods:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.america:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;   
+}
+.steaks:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}*/
+
+
+
+/*------------order page-------------*/
+.order-page{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to left,rgb(236, 189, 197),aliceblue);
+}
+.orders{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foods-on{
+    display: flex;
+    margin-top: 40px;
+}
+.foods a{
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+}
+.foods img{
+    width: 24px;
+    margin-right: 10px;
+}
+.ord-pic img{
+    width: 460px;
+}
+
+.favorite-resta h1{
+    padding-top: 60px;
+    font-size: 50px;
+    font-weight: 700
+}
+.favorite-resta p{
+    font-size: 20px;
+    color: rgba(76, 72, 72, 0.911);
+    padding-top: 15px;
+    font-weight: 300;
+}
+
+/*-----------------service page-------------*/
+.service-page{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.service{
+    display: flex;
+    margin: 80px;
+
+    justify-content: space-between;
+}
+.service h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.content{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    height: 120px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.content h1{
+    color:orange;
+}
+.content h2{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+
+/*----------customers page--------------*/
+.customer-page{
+    width: 100%;
+    margin: auto;
+}
+.customers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-us h1{
+    font-size: 60px;
+}
+.about-us p{
+    color: gray;
+    font-size: 30px;
+}
+.thomas{
+    display: flex;
+    margin-top: 20px;
+}
+.cus-pic img{
+    width: 550px;
+    z-index: 1;
+}
+.bx-like{
+    box-sizing: border-box;
+    border: 1px solid wheat;
+    float: left;
+    border-radius: 50px;
+    margin-top: 250px;
+    padding: 20px;
+    background: wheat;
+}
+.bx-like:hover{
+    background: white;
+    cursor: pointer;
+}
+.thomas-cont h3{
+    padding: 5px;
+}
+.thomas-cont img{
+    padding: 5px;
+}
+
+/*-----------partnership page------------*/
+.partnership{
+    width: 100%;
+    margin: auto;
+    background: rgb(61, 61, 61);
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+.partner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.partners-on{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+.part-pic img{
+    border-radius: 50px;
+    width: 500px;
+    padding: 20px;
+}
+.part-pic{
+    box-sizing: border-box;
+    border: 5px solid orange;
+    width: 550px;
+    height: 300px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.part-pic h2{
+    color: white;
+    font-size: 29px;
+    padding-bottom: 3px;
+}
+.party h2{
+    color: white;
+    font-size: 29px;
+}
+.party img{
+    border-radius: 50px;
+    width: 500px;
+    padding: 20px;
+}
+.party{
+    box-sizing: border-box;
+    border: 5px solid orange;
+    width: 550px;
+    height: 300px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.learn{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.learn:hover{
+    background: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.more{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.more:hover{
+    background: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*----------------subscribe page----------------*/
+.subscribe-page{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    background: rgb(248, 248, 248);
+    margin-bottom: 80px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subs-page h2{
+    font-size: 45px;
+    margin-top: 80px;
+    font-weight: 700;
+}
+.email{
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.subs{
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+}
+.subs:hover{
+    background:white;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+
+/*-----------footer page----------*/
+.footer{
+    width: 100%;
+    margin: auto;
+    background: rgb(65, 63, 63);
+}
+.footer-page{
+    display: flex;
+    background: rgb(39, 39, 39);
+    justify-content: space-evenly;
+    padding-bottom:20px;  
+     border-bottom: 1px solid rgb(211, 211, 211);
+
+
+}
+.quickeat img{
+    width: 80px;
+    margin-top: 20px;
+}
+.istock{
+    display: flex;
+}
+.istock h1{
+    margin-top: 40px;
+    color: white;
+}
+.quickeat h2{
+    margin: 20px;
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+}
+.quickeat p{
+    color:rgb(202, 199, 199);
+    font-size: 20px;
+    margin: 20px;
+}
+.menu{
+    margin-top: 20px;
+    
+}
+.menu h1{
+    margin-top: 20px;
+    color: gray;
+    padding-bottom: 60px;
+}
+.menu h3{
+    padding: 10px;
+    color: rgb(211, 211, 211);
+}
+.menu h3:hover{
+    color: orange;
+    cursor: pointer;
+}
+.contact{
+    margin-top: 20px;
+}
+.contact h1{
+    margin-top: 20px;
+    color: gray;
+    padding-bottom: 60px;
+}
+.contact h2{
+    color: rgb(211, 211, 211);
+    font-size: 19px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.contact h2:hover{
+    color: orange;
+    cursor: pointer;
+}
+.contact h3{
+        padding: 2px;
+        color: rgb(211, 211, 211);
+        margin-top: 10px;
+}
+.contact h3:hover{
+        color: orange;
+        cursor: pointer;
+}
+.bxl-facebook{
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.bxl-facebook:hover{
+    cursor: pointer;
+    background: orange;
+    transition: 0.6s;
+}
+.bxl-instagram{
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.bxl-instagram:hover{
+    cursor: pointer;
+    background: orange;
+    transition: 0.6s;
+}
+.bxl-twitter{
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.bxl-twitter:hover{
+    cursor: pointer;
+    background: orange;
+    transition: 0.6s;
+}
+
+/*-------------about page----------*/
+.about-page{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to left, rgb(252, 204, 212) ,aliceblue);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.nothing{
+    margin-right: 150px;
+}
+.nothing h3{
+    color: gray;
+    padding-top: 20px;
+}
+.nothing h3 b{
+    color: black;
+}
+.nothing h1{
+    font-size: 60px;
+    padding-top: 20px;
+}
+.nothing p{
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(94, 92, 92);
+}
+.abt-pic img{
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.abt-pic{
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 450px;
+    height: 340px;
+}
+/*------------permission page--------*/
+.permission-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+.permission{
+    display: flex;
+    justify-content: space-evenly;
+}
+.perm-content h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.perm-content h3{
+    padding-top: 25px;
+    color: gray;
+}
+.perm-content h4{
+    color: gray;
+    font-size: 19px;
+}
+
+/*-------------discounts page----------*/
+.discounts-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+.discounts{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ipsum h1{
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.ipsum p{
+    color: gray;
+    font-size: 18px;
+}
+.ipsum:hover{
+    box-sizing: border-box;
+    border: 1px solid aliceblue;
+    background: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.time{
+    box-sizing: border-box;
+    border: 1px solid rgb(158, 158, 158);
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px rgb(158, 158, 158);
+}
+.time h1{
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.time p{
+    color: gray;
+    font-size: 18px;
+}
+.time:hover{
+    box-sizing: border-box;
+    border: 1px solid aliceblue;
+    background: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/*-----------delicious page-------------*/
+.delicious-page{
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+}
+.delicious{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.deli-content h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.deli-content p{
+    font-size: 20px;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.deli-content h2{
+    font-size: 20px;
+    font-weight:700 ;
+    padding-bottom: 20px;
+}
+.deli-content h4{
+    padding-top: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.video-container video{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.video-container{
+    box-sizing: border-box;
+    border: 6px solid orange;
+    width: 650px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+/*-----------team page---------*/
+.team-page{
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+.team{
+    text-align: center;
+}
+.team h1{
+    font-size: 50px;
+    padding: 30px;
+    font-weight: 600;
+}
+.team p{
+    font-size: 20px;
+    color: gray;
+}
+.our-team{
+    display: flex;
+    margin: 40px;
+}
+.kevin img{
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    background: rgb(240, 240, 240);
+    border-radius: 50px;
+}
+.roxie img{
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    background: rgb(240, 240, 240);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.edgar img{
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    background: rgb(240, 240, 240);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.kevin{
+    text-align: center;  
+}
+.kevin h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.kevin p{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.roxie{
+    text-align: center;
+}
+.roxie h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.roxie p{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.edgar{
+   text-align: center;
+}
+.edgar h1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.edgar p{
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/*--------------trusted page------------*/
+.trusted-page{
+    width: 100%;
+    margin: auto;
+    background: rgb(243, 243, 243);
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+}
+.trusted{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+}
+.pictures{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.pictures img{
+    padding: 30px;
+    margin-top: 20px;
+    width: 130px;
+}
+
+/*-----------------menu page--------------*/
+.menu-page{
+    width: 100%;
+    margin: auto;
+    background: orange;
+    padding-bottom: 80px;
+}
+.menus{
+    text-align: center;
+}
+.menus h1{
+    font-size: 45px;
+    padding: 30px;
+}
+.menus input{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 400px;
+    font-size: 16px;
+    background: white;
+    color: gray;
+    border-radius: 10px;
+}
+.subs-cribe{
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px  solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+.subs-cribe:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+/*---------------restaurant page------------*/
+.restaurant-page{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to left, rgb(252, 204, 212) ,aliceblue);
+    margin-bottom: 30px;
+}
+.resta-page{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.tempus{
+    margin-right: 150px;
+    padding-top: 50px;
+}
+.tempus h3{
+    color: gray;
+    padding-top: 20px;
+}
+.tempus h3 b{
+    color: black;
+}
+.tempus h1{
+    font-size: 60px;
+    padding-top: 20px;
+}
+.tempus p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(94, 92, 92);
+}
+.tempus-pic img{
+    width: 600px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.sup{
+    margin-top: 20px;
+    width: 300px;
+}
+
+/*----------lunch page------------*/
+.lunch-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+.lunches{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lunching h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.lunch-pic img{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+.order-quick{
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: orange;
+}
+.order-quick:hover{
+    background: orange;
+    transition: 0.6s;
+    cursor: pointer;
+    color: black;
+}
+
+/*----------facilities page-----------*/
+.facilities-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 90px;
+}
+.elementam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cafe{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.cafe-pic img{
+    width: 80px;
+    padding: 8px;
+    
+}
+.cafe-pic{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 10px;   
+}
+.cafetaria h2{
+    padding: 4px;
+}
+.cafetaria h2:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+.cafetaria img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dot{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.envelop{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.usage{
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 4, 94);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cafetaria p{
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: gray;
+}
+.usage:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.dot:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;   
+}
+.envelop:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+
+/*-----------contact page-----------*/
+.contact-page{
+    width: 100%;
+    margin: auto;
+}
+.cont-page{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contents-cont{
+    padding: 20px;
+    margin-top: 60px;
+}
+.contents-cont h3{
+    color: gainsboro;
+}
+.contents-cont h3 b{
+    color: black;
+}
+.contents-cont h1{
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contents-cont p{
+    color: gray;
+    font-size: 20px;
+}
+.cont-details{
+    display: flex;
+    margin-top: 30px;
+}
+.location{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    background: white;
+    box-shadow: 5px 5px 5px gainsboro;
+    padding: 5px;
+}
+.location img{
+    width: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.message{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    margin-left: 10px;
+    background: white;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.message p{
+    font-size: 12px;
+}
+.message img{
+    width: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mobile{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.mobile p{
+    font-size: 12px;
+}
+.mobile img{
+    width: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----------map page-----------*/
+.map-page{
+    width: 100%;
+    margin: auto;
+}
+.map-usage{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    margin: 40px;
+}
+.map-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+.purus h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.purus p{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.name{
+    border: 1px solid gainsboro;
+    color: gray;
+    width: 500px;
+    padding: 10px;
+}
+.email-add{
+    border: 1px solid gainsboro;
+    color: gray;
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textarea{
+    width: 520px;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+}
+.apply{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 180px;
+    color: white;
+    background: orange;
+    border-radius: 10px;
+}
+.apply:hover{
+    color: black;
+    background: white;
+    transition: 0.6s;
+}
+.iframe{
+    border-radius: 50px;
+}
+
+/*----------------restacard page----------------*/
+.restacard-page{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(to right,white, rgb(240, 208, 213));
+}
+.restacard{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.breakfast h3{
+   color: gray;
+   font-size: 18px;
+   margin-top: 30px;
+}
+.breakfast h3 b{
+    color: black;
+}
+
+.resta-cont{
+    display: flex;
+    margin-top: 40px;
+}
+.resta-cont h1{
+    margin-left: 10px;
+    font-size: 35px;
+}
+.new{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+}
+.resta-cont img{
+    width: 100px;
+}
+.semper p{
+   color: gray;
+   font-size: 14px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.dotted{
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 94);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+}
+.envelops{
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 94);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+}
+.usage-on{
+        box-sizing: border-box;
+        border: 1px solid rgb(4, 4, 94);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+}
+.usage-on:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.dotted:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;   
+}
+.envelops:hover{
+    background: rgb(4, 4, 94);
+    color: white;
+    transition: 0.5s;
+}
+.semper h2{
+    font-size: 18px;
+    color: grey;
+}
+.card-pic img{
+    width: 450px;
+    border-radius: 10px;
+}
+.card-pic{
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 500px;
+    height: 400px;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/*-----------lunchbox page--------------*/
+.lunch-box{
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+}
+.lunchbox{
+    font-size: 35px;
+    text-align: center;
+}
+.dinner{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+.kiwi{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+.kiwi img{
+    width: 300px;
+    padding: 5px;
+}
+.kiwi h2{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.break{
+    text-decoration: none;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.brunch{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.break:hover{
+    background: rgb(14, 14, 90);
+    color: white;
+    transition: 0.6s;
+}
+.brunch:hover{
+    background: rgb(14, 14, 90);
+    color: white;
+    transition: 0.6s;
+}
+.bxs-info-circle{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.basket{
+    text-decoration: none;
+    margin-left: 80px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.basket:hover{
+    background: rgb(14, 14, 90);
+    color: white;
+    transition: 0.6s;
+}
+
+/*-----------checkout page-----------*/
+.check-page{
+    width: 100%;
+    margin: auto;
+}
+.check{
+    text-align: center;
+    margin: 40px;
+}
+.check h3{
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+}
+.check h3 b{
+    color: black;
+}
+.check h1{
+    font-size: 40px;
+    padding: 10px;
+}
+.check h2{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(153, 147, 147);
+}
+
+/*-------------buy page-------------*/
+.buy-page{
+    width: 100%;
+    margin: auto;
+    background: rgb(245, 245, 245);
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.buy-form{
+    box-sizing: border-box;
+    border: 1px solid  gainsboro;
+    background: white;
+    margin-left: 420px;
+    padding: 50px;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+}
+.buying h2{
+    font-size: 30px;   
+}
+.name-on{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    width: 385px;
+    border-radius: 10px;
+
+}
+.mail{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.phn{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.address h2{
+    font-size: 30px;
+}
+.califo{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    width: 385px;
+    border-radius: 10px;
+
+}
+.street{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 385px;
+
+}
+
+.house{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.apartment{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.send{
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 300px;
+    margin-left: 170px;
+    font-size: 17px;
+}
+.send:hover{
+    color: white;
+    background:rgb(15, 15, 114);
+    transition: 0.6s;
+}
+
+/*---------faq page------------*/
+.faq-page{
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+.frequent{
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 50px;
+}
+.faq h3{
+    color: gray;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.faq h3 b{
+    color: black;
+    font-size: 20px;
+}
+.faq h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.faq p{
+    font-size: 20px;
+    color: grey;
+}
+.faq-pic img{
+    border-radius: 50px;
+    height: 400px;
+}
+.faq-pic{
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 600px;
+    height: 400px;
+    border: 5px solid orange;
+    padding: 20px;
+    padding-right: 10px;
+}
+.bx-question-mark{
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    background: orange;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/*------------question page-------------*/
+.question-page{
+    width: 100%;
+    margin: auto;
+}
+.question{
+    display: block;
+    margin-top: 60px;
+}
+.first-ques{
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    background: gainsboro;
+    width: 60%;
+    margin-left: 55px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+.bx-search-alt{
+    box-sizing: border-box;
+    border: 1px solid orange;
+    background: orange;
+    margin-right: 15px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.ipsum-para{
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.ipsum-para h3{
+    padding: 20px;
+    color: gray;
+}
+.ipsum-para h4{
+    padding: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.sec-ques{
+    margin-top: 280px;
+     box-sizing: border-box;
+     border: 1px solid gainsboro;
+     background: gainsboro;
+    width: 60%;
+    margin-left: 55px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+
+.ipsum-content{
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+    margin-right: 30px;
+}
+.ipsum-content h3{
+    padding: 20px;
+    color: gray;
+}
+.ipsum-content h4{
+    padding: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.ipsum-content h2{
+    padding-left: 20px;
+    font-size: 22px;
+    color: rgb(83, 83, 83);
+}
